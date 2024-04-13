@@ -1,0 +1,32 @@
+
+body{
+    font-family: "Playfair Display", serif; 
+    color: #FB9AD1;
+    background-size: cover;
+ }
+ 
+ h1{
+     color:black;
+ }
+ 
+ .btn-success:hover{
+     background-color:#BC7FCD ;
+ }
+ 
+ canvas {
+     animation-name: gradience;
+     animation-duration: 6s;
+     animation-iteration-count: infinite;
+ }
+ 
+ @keyframes gradience{
+     from{box-shadow: 1px 1px 38px #BC7FCD; }
+     to{box-shadow: 1px 1px 38px #D862BC;}
+ }
+ 
+ button{
+     background-color: #BC7FCD;
+     color: aliceblue;
+     width: 90px;
+     height: 55px;
+ }
